@@ -9,7 +9,7 @@ addpath('file_manage');
 % read files and prepare the parameters
 imagepath = 'data/images';
 [framestamp, framegap] = readts('data/framestamps1.txt');
-[gyrostamp, gyrogap, anglev] = readgyro('data/gyro2.txt');
+[gyrostamp, gyrogap, anglev] = readgyro('data/gyro.txt');
 
 framestart = 1;
 frameend = length(framestamp);
